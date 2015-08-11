@@ -1,0 +1,28 @@
+---------- Date: 2015-08-11 00:15:47 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/manufacturer&amp;manufacturer_category_id=3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\manufacturer\vqmod/xml/manufacturer_category.xml
+   id        : Manufacturer Categories
+   version   : 1.0.0
+   vqmver    : 2.1.5
+   author    : nikita-sp.com.ua
+
+File Name    : catalog/model/catalog/manufacturer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sql = "SELECT * FROM " . DB_PREFIX . "manufacturer m LEFT JOIN " . DB_PREFIX . "manufacturer_to_store m2s ON (m.manufacturer_id = m2s.manufacturer_id) WHERE m2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
+----------------------------------------------------------------------
+
+
+---------- Date: 2015-08-11 00:15:49 ~ IP : 127.0.0.1 ----------
+REQUEST URI : /index.php?route=product/manufacturer&amp;manufacturer_category_id=3
+MOD DETAILS:
+   modFile   : D:\OpenServer\domains\manufacturer\vqmod/xml/manufacturer_category.xml
+   id        : Manufacturer Categories
+   version   : 1.0.0
+   vqmver    : 2.1.5
+   author    : nikita-sp.com.ua
+
+File Name    : catalog/model/catalog/manufacturer.php(0)
+VQModObject::applyMod - SEARCH NOT FOUND (ABORTING MOD): $sql = "SELECT * FROM " . DB_PREFIX . "manufacturer m LEFT JOIN " . DB_PREFIX . "manufacturer_to_store m2s ON (m.manufacturer_id = m2s.manufacturer_id) WHERE m2s.store_id = '" . (int)$this->config->get('config_store_id') . "'";
+----------------------------------------------------------------------
+
+
